@@ -419,7 +419,8 @@ input:checked + .slider:before {
   text-decoration: none;
   font-family: "Inter";
   font-weight: 400;
-  
+  transition: all .3s ease-in;
+  border-radius: 15px;
 }
 
 
@@ -430,6 +431,8 @@ input:checked + .slider:before {
 .sidebar a:hover {
   text-decoration: none;
   color: white;
+  background: #5160ac;
+  border-radius: 15px;
 }
 
 .sidebar a:hover::after {
@@ -504,9 +507,9 @@ label #close {
   position: relative;
 }
 
-.sidebar li:hover {
+/* .sidebar li:hover {
   background: #5160ac;
-}
+} */
 
 .collapse-item-sidebar li a {
   margin-left: -15px;

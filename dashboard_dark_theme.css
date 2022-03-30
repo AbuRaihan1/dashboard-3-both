@@ -11,6 +11,7 @@
   background: #1d1e25;
   border: 1px solid transparent;
   transition: all 0.3s ease-in-out;
+  color: rgb(170, 161, 161);
 }
 
 .search_bar_dark input:focus {
@@ -35,6 +36,7 @@
 
 .sidebar_logo_dark{
   background: #1C1D24;
+  border-bottom: none;
 }
 .sidebar_logo_dark img{
   width: 180px;
