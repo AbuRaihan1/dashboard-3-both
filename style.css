@@ -1,17 +1,14 @@
-
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-body{
-  background: #E5E5E5;
-  font-family: 'inter';
-  
+body {
+  background: #e5e5e5;
+  font-family: "inter";
 }
 
- 
 /* scrollbar edit start */
 
 ::-webkit-scrollbar {
@@ -45,8 +42,6 @@ body{
 
 /* scrollbar edit end */
 
-
-
 /* header start */
 
 .header_wrapper {
@@ -65,13 +60,12 @@ body{
   position: relative;
 }
 
-.inner_search{
+.inner_search {
   position: relative;
   border: 1px solid red;
-  
 }
 
-.inner_search i{
+.inner_search i {
   position: absolute;
   top: 38px;
   left: 345px;
@@ -131,10 +125,6 @@ body{
   padding: 10px;
   border-radius: 50%;
 }
-
-
-
-
 
 .user_login {
   display: flex;
@@ -197,9 +187,9 @@ body{
 
 /* togle item */
 
-.cammeron_toogle{
+.cammeron_toogle {
   position: relative;
-  background: #F4F2F2;
+  background: #f4f2f2;
   border-radius: 15px;
 }
 
@@ -212,10 +202,9 @@ body{
   top: 10px;
   right: 40px;
   border-radius: 50%;
-  
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -229,8 +218,8 @@ body{
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -241,16 +230,16 @@ body{
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
@@ -341,11 +330,6 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-
-
-
-
-
 /*---------------sidebar Start-------------*/
 
 .sidebar {
@@ -360,8 +344,7 @@ input:checked + .slider:before {
   font-weight: bold;
   bottom: 0;
   overflow: hidden;
-  font-family: 'Inter';
-
+  font-family: "Inter";
 }
 
 .sidebar:hover {
@@ -387,28 +370,27 @@ input:checked + .slider:before {
   margin-left: 30px;
 }
 
-.sidebar_ul li{
+.sidebar_ul li {
   position: relative;
 }
 
-.sidebar_ul li .sidebar_black_icons{
+.sidebar_ul li .sidebar_black_icons {
   margin-left: 20px;
   margin-right: 10px;
 }
 
-.sidebar_white_icons{
+.sidebar_white_icons {
   display: none;
   margin-left: 20px;
   margin-right: 10px;
 }
 
-.sidebar_ul li:hover .sidebar_white_icons{
+.sidebar_ul li:hover .sidebar_white_icons {
   display: inline-block;
 }
-.sidebar_ul li:hover .sidebar_black_icons{
-  display:none;
+.sidebar_ul li:hover .sidebar_black_icons {
+  display: none;
 }
-
 
 .sidebar ul li a {
   color: #000000;
@@ -419,10 +401,9 @@ input:checked + .slider:before {
   text-decoration: none;
   font-family: "Inter";
   font-weight: 400;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   border-radius: 15px;
 }
-
 
 .sidebar ul li:first-child {
   margin-top: 68px;
@@ -529,233 +510,181 @@ label #close {
 
 /*---------------sidebar End----------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* main-body-div */
-.main-body{
+.main-body {
   margin-left: 240px;
   margin-top: 90px;
 }
-@media screen and (max-width:900px) {
 
-.main-body{
-  margin-left: 0px;
-
+@media screen and (max-width: 1020px) {
+  .main-body {
+    margin-left: 0px;
+  }
 }
 
+@media screen and (max-width: 900px) {
+  .main-body {
+    margin-left: 0px;
+  }
 }
-
-
-
-
-
-
-
 
 /* dashboard styles */
 
-
-
-
-
 /* heder rectangle start */
 
-
-
-.rectangle_style{
+.rectangle_style {
   position: relative;
 }
 
-.rectangle_img_wrapper{
+.rectangle_img_wrapper {
   display: flex;
   min-width: 200px;
   overflow-x: hidden;
 }
-.rectangle_img_wrapper img{
+.rectangle_img_wrapper img {
   margin-left: -40px;
   margin-top: -18px;
   margin-bottom: 20px;
 }
 
-.rectangle_select_item{
+.rectangle_select_item {
   position: absolute;
   right: 20px;
   top: 40px;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 }
 
-.trending{
+.trending {
   position: absolute;
   top: 40px;
   left: 40px;
 }
 
-.trending h3{
-  color: black;
+.trending h3 {
+  color: rgb(238, 230, 230);
   font-weight: 800;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 20px;
   margin-top: -20px;
-  
 }
 
-.trending i{
-  color: #FF9A01;
+.trending i {
+  color: #ff9a01;
 }
 
-.trending_wrapper{
+.trending_wrapper {
   position: absolute;
   top: 100px;
   left: 40px;
   display: flex;
 }
 
-.trending_wrapper button{
+.trending_wrapper button {
   border: none;
   outline: none;
   margin-right: 10px;
   padding: 8px 20px;
-  background: #5160AC;
+  background: #5160ac;
   border-radius: 10px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  color:white;
+  color: white;
   margin-top: -30px;
   cursor: pointer;
 }
 
-.trending_wrapper button:nth-child(2){
+.trending_wrapper button:nth-child(2) {
   background: white;
-  color: #808A9D;
+  color: #808a9d;
   font-weight: 600;
 }
 
-
-
-
-.rectangle_select_item select{
-  background-color: rgb(255, 255, 255);
+.rectangle_select_item select {
+  background-color: #232530;
   outline: none;
   border-radius: 5px;
-  border: 1px solid #9295A3;
-  font-family: 'Inter';
+  border: none;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   padding: 5px 15px;
-  color: rgb(151, 149, 145);
+  color: white;
   cursor: pointer;
 }
 
-
-@media screen and (max-width:800px) {
-  .trending_wrapper{
+@media screen and (max-width: 800px) {
+  .trending_wrapper {
     left: 10px;
   }
-  .trending_wrapper button{
+  .trending_wrapper button {
     padding: 9px 9px;
   }
-  .trending h3{
+  .trending h3 {
     margin-left: -20px;
   }
 }
 /* heder rectangle end */
 
-
-
-
-
-
-
-.dashboard_head{
+.dashboard_head {
   background: rgba(255, 255, 255, 1);
   position: relative;
   margin-top: 110px;
- 
 }
 
-.dashboard{
+.dashboard {
   background: rgba(255, 255, 255, 1);
   position: relative;
-  
-
 }
 
+.dashboard table thead tr th {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
 
-
-.dashboard table thead tr th{
-
-
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-
- color: rgba(0, 0, 0, 0.877);
-text-align: center;
-
+  color: rgba(0, 0, 0, 0.877);
+  text-align: center;
 }
 
-.dashboard table tbody tr th{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 21px;
-color: #808A9D;
-
+.dashboard table tbody tr th {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #808a9d;
 }
-.dashboard table tbody tr th img{
+.dashboard table tbody tr th img {
   margin-left: 50px;
   width: 20px;
 }
 
-
-
-
-.dashboard table tbody tr td{
-  font-family: 'Inter';
-font-weight: 500;
-font-size: 14px;
-line-height: 22px;
-height: 60px;
-color: #000000;
-
-
+.dashboard table tbody tr td {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  height: 60px;
+  color: #000000;
 }
 
-
-@media screen and (max-width:800px) {
-  .dashboard table tbody tr th i{
+@media screen and (max-width: 800px) {
+  .dashboard table tbody tr th i {
     margin-left: 0px;
-    
+
     display: none;
   }
-  .dashboard table tbody tr th img{
+  .dashboard table tbody tr th img {
     margin-left: 2px;
     width: 8px;
   }
-  
 }
-
-
 
 /* table sentiment */
 .sentiment_wrapper {
@@ -772,7 +701,7 @@ color: #000000;
   background: #16c784;
   border-radius: 0px 10px 10px 0px;
   height: 15px;
-  width: 40px;
+  width: 50px;
 }
 
 .gray_parsent {
@@ -802,7 +731,7 @@ color: #000000;
   transition: all 0.2s ease-in-out;
 }
 
-.gray_parsent:hover .gray_parsent_indicator {
+.sentiment_wrapper:hover .gray_parsent_indicator {
   visibility: visible;
 }
 
@@ -819,37 +748,25 @@ color: #000000;
 }
 /* table sentiment */
 
-
-
-
-
-
-
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .dashboard {
     height: 600px;
     overflow: scroll;
   }
-  .dashboard table thead tr th{
+  .dashboard table thead tr th {
     font-size: 13px;
   }
 
-  .dashboard table tbody tr th{
+  .dashboard table tbody tr th {
     font-size: 10px;
   }
-  .dashboard table tbody tr td{
+  .dashboard table tbody tr td {
     font-size: 10px;
   }
 }
 
-
-
-
-
-
-
 /* dashboard pagianton */
-.dashboard_pagination{
+.dashboard_pagination {
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -857,30 +774,29 @@ color: #000000;
   margin: 5px;
 }
 
-.dashboard_pagination p{
- 
+.dashboard_pagination p {
   color: black;
-  
-font-family: 'Inter';
 
-font-weight: 600;
-font-size: 14px;
-line-height: 24px;
+  font-family: "Inter";
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
 }
 
-.pagination_item li{
+.pagination_item li {
   display: inline;
   list-style-type: none;
   margin: 5px;
   color: #000000;
 }
 
-.pagination_item li a{
+.pagination_item li a {
   text-decoration: none;
-  color:#000000;
+  color: #000000;
   border-radius: 10%;
   padding: 5px 10px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* .pagination_item li a:first-child{
@@ -888,32 +804,26 @@ line-height: 24px;
   color: white;
 
 } */
-.pagination_item li a:hover{
-  background: #5160AC;
+.pagination_item li a:hover {
+  background: #5160ac;
   color: white;
-
 }
 
-
-
-.dashboard_pagination select{
+.dashboard_pagination select {
   font-size: 15px;
-  font-family: 'Inter';
+  font-family: "Inter";
   padding: 10px;
   background-color: rgb(245, 245, 245);
   border: none;
   border-radius: 10px;
   margin-top: -20px;
- 
 }
 
-
-@media screen and (max-width:800px) {
-  .dashboard_pagination p{
+@media screen and (max-width: 800px) {
+  .dashboard_pagination p {
     display: none;
-
   }
-  .dashboard_pagination select{
+  .dashboard_pagination select {
     display: none;
   }
   .dashboard_pagination {
@@ -921,25 +831,15 @@ line-height: 24px;
     justify-content: center;
     align-items: center;
   }
-  .pagination_item li{
+  .pagination_item li {
     margin-left: 0px;
-   
   }
-  .pagination_item li a{
+  .pagination_item li a {
     padding: 4px;
   }
 }
 
-
 /* dashboard pagianton */
-
-
-
-
-
-
-
-
 
 /* footer start  */
 .footer {
@@ -964,16 +864,14 @@ line-height: 24px;
   display: block;
 }
 
-
-@media screen and (max-width:900px) {
-  .footer{
+@media screen and (max-width: 900px) {
+  .footer {
     margin-left: 0px;
   }
-  
 }
 
-@media screen and (max-width:1320px) {
-  .footer_wrapper{
+@media screen and (max-width: 1320px) {
+  .footer_wrapper {
     display: block;
     text-align: center;
   }
@@ -981,88 +879,73 @@ line-height: 24px;
 
 /* footer end  */
 
-
-
-
-
 /* media query for phone responsive */
 
-@media screen and (max-width:1020px) {
-
-  .sidebar{
+@media screen and (max-width: 1020px) {
+  .sidebar {
     left: -500px;
   }
 
-  label #bars{
+  label #bars {
     display: block;
   }
 
-  .search_bar input{
+  .search_bar input {
     width: 600px;
     left: 80px;
   }
 
-  .main_body{
+  .main_body {
     margin-left: 0px;
   }
 
-  .inner_search i{
+  .inner_search i {
     left: 95px;
   }
-  .footer_wrapper{
+  .footer_wrapper {
     display: block;
     text-align: center;
   }
- 
 }
 
-@media screen and (max-width:790px) {
-  .search_bar input{
+@media screen and (max-width: 790px) {
+  .search_bar input {
     width: 400px;
     left: 80px;
   }
-
-
 }
 
-@media screen and (max-width:580px) {
-  .search_bar input{
+@media screen and (max-width: 580px) {
+  .search_bar input {
     width: 300px;
     left: 80px;
   }
 }
 
-@media screen and (max-width:480px) {
-  .search_bar input{
+@media screen and (max-width: 480px) {
+  .search_bar input {
     width: 250px;
     left: 60px;
   }
 
-  .inner_search i{
+  .inner_search i {
     left: 76px;
   }
 
-  .user_login .user_logo p{
+  .user_login .user_logo p {
     width: 30px;
     height: 30px;
   }
-
 }
 
-
-@media screen and (max-width:385px) {
-  .search_bar input{
+@media screen and (max-width: 385px) {
+  .search_bar input {
     width: 200px;
     left: 60px;
     height: 40px;
     margin-top: 5px;
     font-size: 16px;
   }
-
 }
-
-
-
-
 
 /* dashboard charts styles end */

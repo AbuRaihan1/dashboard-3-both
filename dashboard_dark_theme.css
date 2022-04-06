@@ -119,8 +119,11 @@
 }
 .pagination_item_dark li a{
   color: white;
-}
 
+}
+.pagination_active_first{
+  background: #5160AC;
+}
 .table_head_tr_dark th{
   color: #FFFFFF!important;
 }
@@ -136,29 +139,84 @@
   width: 10px;
 }
 
-::-webkit-scrollbar-track {
-  background: #181212;
+::-webkit-scrollbar-track{
+  background: none;
+  box-shadow: none;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(7, 6, 6);
+  background:  #333030;;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(17, 10, 10);
+  background: #717171;
 }
 
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-}
+
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(26, 17, 17);
+  background: gray;
   border-radius: 10px;
 }
 
 /* scrollbar edit end */
+
+
+
+
+.name_item{
+  color:#FFFFFF !important;
+  margin-left: 3px !important;
+  font-size: 13px;
+}
+
+.name_item_sub_short{
+  color: white;
+  margin-left:2px;
+  font-size: 12px !important;
+}
+
+.price_item{
+  color: white !important;
+  font-size: 13px;
+}
+
+.header_wrapper_table_board_dark_item{
+  background-image: linear-gradient(to right, #1C2339 , #422544 , #4C4027);
+  display: flex;
+  justify-content: space-around;
+  height: 130px;
+}
+
+.change_price{
+  font-size: 13px;
+}
+
+/* .trendings_side_left{
+
+}
+
+.crypto_side_right{
+
+} */
+
+table{
+  width: 3000px;
+}
+.mytable_dark th{
+  border-bottom: 1px solid #232530 !important;
+  border-top: none !important;
+}
+.mytable_dark td{
+  border-bottom: 1px solid #232530 !important;
+  border-top: 1px solid #232530;
+}
+
+.fa-ellipsis-v{
+  color: white;
+  cursor: pointer;
+}
