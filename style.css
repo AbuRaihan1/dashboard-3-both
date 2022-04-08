@@ -516,6 +516,19 @@ label #close {
   margin-top: 90px;
 }
 
+@media screen and (max-width:3240px) and (min-width:2000px){
+  .red_sentiment{
+    width: 65px !important;
+  }
+  .green_sentiment{
+    width: 65px !important;
+  }
+
+  .gray_parsent{
+    width: 30px !important;
+  }
+}
+
 @media screen and (max-width: 1020px) {
   .main-body {
     margin-left: 0px;
@@ -689,6 +702,7 @@ label #close {
 /* table sentiment */
 .sentiment_wrapper {
   display: flex;
+
 }
 
 .red_sentiment {
